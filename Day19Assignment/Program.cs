@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("enter number\n1.First Name Regex\n2.valid Last Name\n3.valid email");
+            Console.WriteLine("enter number\n1.First Name Regex\n2.valid Last Name\n3.valid email\n4.valid Mobile Number");
             int obj=Convert.ToInt32(Console.ReadLine());    
 
             switch(obj)
@@ -17,6 +17,9 @@
                     break;
                 case 3:
                     EmailRegex.ValidarEmail();
+                    break;
+                case 4:
+                    MobileNUmber.ValidateMobileNumber();
                     break;
                     
             }
