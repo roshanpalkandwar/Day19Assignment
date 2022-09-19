@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("enter number\n1.First Name Regex\n2.valid Last Name\n3.valid email\n4.valid Mobile Number\n5.Valide Password\n6.Password rule 2\n7.Password Rule 3\n8.Password Rule 8");
+            Console.WriteLine("enter number\n1.First Name Regex\n2.valid Last Name\n3.valid email\n4.valid Mobile Number\n5.Valide Password\n6.Password rule 2\n7.Password Rule 3\n8.Password Rule 4\n9.Email Sample");
             int obj=Convert.ToInt32(Console.ReadLine());    
 
             switch(obj)
@@ -33,7 +33,9 @@
                 case 8:
                     Password4.ValidatePassWord4();
                     break;
-                    
+                case 9:
+                    EmailSample.emailSample();
+                    break;
             }
            
         }
